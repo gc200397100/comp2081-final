@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body main {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	padding-left: 8rem;
+	padding-bottom: 5rem;
+}
+
+main section {
+	width: 25%;
+	margin: 4rem;
+
+}
+
+section p {
+	font-size: 1.8rem;
+}
+
+svg {
+	position: absolute;
+}

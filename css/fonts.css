@@ -26,6 +26,10 @@ section h3, footer h3{
 	font-size: 2.8rem;
 }
 
-section p, li {
+main p {
 	font-size: 2.4rem;
+}
+
+li {
+	font-size: 1.8rem;
 }
