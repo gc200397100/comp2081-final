@@ -20,3 +20,17 @@ main svg{
 	position: absolute;
 	left: 5rem;
 }
+
+.pagination.active {
+	font-size: 1.4rem;
+	color: white;
+	background-color: #EE2A28;
+	padding: 0.5rem ;
+	margin-left: 1rem;
+}
+.pagination {
+	font-size: 1.4rem;
+	padding: 0.5rem ;
+	margin-left: 1rem;
+	color: #453519;
+}
