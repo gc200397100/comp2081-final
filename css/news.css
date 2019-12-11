@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+main section {
+	display: flex;
+	margin: 3rem;
+	margin-left: 15rem;
+	align-items: flex-start;
+	width: 60%;
+}
+main section img {
+	width: 250px;
+	height: 250px;
+	object-fit: cover;
+}
+main section div{
+	margin-left: 4rem;
+}
+
+svg{
+	position: absolute;
+	left: 5rem;
+}

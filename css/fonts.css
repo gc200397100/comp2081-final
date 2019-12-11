@@ -5,6 +5,7 @@
 * {
 	font-size: 10px;
 	font-family: "Crimson Text";
+	color: #453519;
 }
 
 h1, h2, h3 {
@@ -32,4 +33,8 @@ main p {
 
 li {
 	font-size: 1.8rem;
+}
+
+footer h3, footer li {
+	color: white
 }
