@@ -31,10 +31,10 @@ main p {
 	font-size: 2.4rem;
 }
 
-li {
+li a {
 	font-size: 1.8rem;
 }
 
-footer h3, footer li {
+footer h3, footer li a{
 	color: white
 }

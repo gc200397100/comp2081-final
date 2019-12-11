@@ -36,8 +36,8 @@ footer ul {
 	margin-top: 2rem;
 }
 
-.button:hover{
+.button:hover, li a:hover{
 	text-decoration: none;
 	color: white;
-	text-transform: uppercase;
+	text-transform: lowercase;
 }
