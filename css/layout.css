@@ -1,0 +1,43 @@
+@charset "UTF-8";
+body footer {
+	display: flex;
+}
+
+footer img {
+	width: 150px;
+}
+
+footer section{
+	background-color: #453519;
+	color:white;
+	width: 33%;
+	padding: 4rem;
+}
+
+footer section:first-of-type {
+	text-align: center;
+	background-color: #8ABF3F;
+}
+
+footer li{
+	list-style: none;
+}
+
+footer ul {
+	padding-left: 0;
+}
+
+/* universal button */
+.button {
+	font-size: 2.4rem;
+	color: white;
+	background-color: #EE2A28;
+	padding: 0.5rem 1rem;
+	margin-top: 2rem;
+}
+
+.button:hover{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+}
