@@ -1,0 +1,12 @@
+#mapid {
+	height: 70vh;
+}
+
+main section {
+	padding-left: 10rem;
+	padding-bottom: 3rem;
+}
+main svg {
+	position: absolute;
+	left: 5rem;
+}

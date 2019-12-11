@@ -69,7 +69,7 @@ main section:nth-of-type(2) p:nth-of-type(3){
 	grid-row-end: 4;
 }
 
-svg{
+main svg{
 	margin-top: 100px;
 }
 
