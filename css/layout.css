@@ -40,5 +40,27 @@ footer ul {
 .button:hover, li a:hover{
 	text-decoration: none;
 	color: white;
+}
+
+.button:hover{
 	text-transform: lowercase;
+}
+
+li a:hover{
+	animation: fadein 1s forwards;
+	/* vendor prefixes */
+	-webkit-animation: fadein 2s forwards;
+	-moz-animation: fadein 2s forwards;
+	-ms-animation: fadein 2s forwards;
+}
+@keyframes fadein{
+	5%{
+		opacity: 0;
+		text-transform: lowercase;
+	}
+	
+	100%{
+		text-transform: lowercase;
+		opacity: 1;
+	}
 }
