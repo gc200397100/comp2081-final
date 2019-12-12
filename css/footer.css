@@ -4,7 +4,8 @@ footer {
 
 footer img {
 	width: 150px;
-	z-index:99;
+	z-index: 99;
+	padding-top: 80px; 
 }
 
 footer section{
@@ -57,5 +58,9 @@ footer li a:hover{
 
 	footer section:first-of-type{
 		order: 3;
+	}
+
+	footer img {
+		padding-top: 0px;
 	}
 }
