@@ -1,6 +1,7 @@
 const ACCESS_TOKEN = "pk.eyJ1IjoiZWptYW5uIiwiYSI6ImNrM2htNG56NTBlYnQzZHFkbDZnazFxdW4ifQ.Rlmi60wikd7fps0UvPjApQ"
-navigator.geolocation.getCurrentPosition(function(position){
 
+function map() {
+	console.log("map")
 	var mymap = L.map('mapid').setView([44.388, -79.690], 17);
 
 	L.tileLayer(
@@ -13,5 +14,7 @@ navigator.geolocation.getCurrentPosition(function(position){
 
 	//place marker
 	var marker = L.marker([44.388672, -79.690919]).addTo(mymap);
+}
 
-});
+map();
+
