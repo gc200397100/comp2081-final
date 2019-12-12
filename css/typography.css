@@ -42,3 +42,10 @@ li a {
 footer h3, footer li a{
 	color: white
 }
+nav a::before, nav a::after{
+	content: '🌷';
+	opacity: 0;
+}
+nav a:hover::before{
+	opacity: 1;
+}

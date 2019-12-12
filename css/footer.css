@@ -28,7 +28,7 @@ footer ul {
 }
 
 /* Hovering stuff */
-li a:hover{
+footer li a:hover{
 	animation: fadein 1s forwards;
 	/* vendor prefixes */
 	-webkit-animation: fadein 2s forwards;

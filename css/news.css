@@ -47,4 +47,16 @@
 	#news section img{
 		display: none;
 	}
+	#news{
+		width:90%;
+	}
+	#news section{
+		margin-left: 4rem;
+	}
+	#news svg{
+		left: 3rem;
+	}
+	#news section:last-of-type h3 {
+		padding-left: 2rem;
+	}
 }

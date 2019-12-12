@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-#menu {
+#menu div{
 	display: flex;
 	flex-wrap: wrap;
 	margin: 0 auto;
@@ -23,6 +23,13 @@
 	z-index:-1;
 }
 
+#menu span object {
+	width: 75px;
+	height: 50px;
+	position: relative;
+	top: 10px;
+}
+
 @media only screen and (max-width: 1040px){
 	#menu section {
 		width: 40%;
@@ -33,14 +40,16 @@
 }
 
 @media only screen and (max-width: 880px){
-	#menu {
+	#menu div {
 		display: block;
+		width:90%;
+		padding-left:0;
 	}
 	#menu section {
 		width: 80%;
 		margin: 4rem;
 	}
 	#menu svg {
-		height: 1800px
+		height: 2400px
 	}
 }

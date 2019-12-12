@@ -6,6 +6,15 @@
     display: flex;
     justify-content: space-between;
     background-color: var(--bg);
+	position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 500;
+}
+
+main {
+	margin-top: 116px !important;
 }
 
 #top-nav.green {
@@ -19,26 +28,95 @@
     justify-content: space-between;
 }
 
-#top-nav nav a {
+#top-nav nav ul {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#top-nav nav ul li {
+    display: inline-block;
+    padding-top:20px;
+}
+
+#top-nav nav ul li a {
     color: var(--font-color);
     font-family: var(--font-header);
     font-size: 30px;
-    font-weight: bold;
-    padding: 50px;
+    padding: 20px 0;
 }
 
 #top-nav img {
-    width: 200px;
+	width: 200px;
+	height: 116px;
     position: relative;
-    top: 10px;
-    left: 50px;
+    left: 5vw;
 }
 
-#top-nav.green img {
-    fill: white;
-    width: 200px;
-    height: 70px;
+#top-nav nav label, #hamburger {
+    display: none;
+    font-size: 40px;
     position: relative;
-    top: 32px;
-    left: 48px;
+    top: 4vh;
+    right: 8vw;
+    color: var(--font-color);
+}
+
+#top-nav nav label, #hamburger:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 838px) {
+    #top-nav nav label {
+        display: inline-block;
+        z-index: 200;
+        position: fixed;
+        top: 30px;
+    }
+
+    #top-nav nav ul li {
+        display: block;
+        width: 80%;
+    }
+
+    #top-nav nav ul {
+        display: none;
+        position: fixed;
+        left: 0;
+        width: 100vw;
+        background-color: white;
+        top: 0;
+        bottom: 0;
+        text-align: center;
+    }
+
+    #top-nav nav input:checked ~ ul {
+		z-index: 100;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+    }
+
+    #top-nav.green nav input:checked ~ label, #hambuerger {
+        --font-color: var(--brown);
+    }
+
+    #top-nav.green nav ul li a {
+        --font-color: var(--brown);
+    }
+}
+
+@media only screen and (max-width:600px){
+    #top-nav img{
+        width: 150px;
+        padding-top:16px;
+    }
+
+    #top-nav.green img{
+        width: 150px;
+        padding-top:16px;
+    }
 }

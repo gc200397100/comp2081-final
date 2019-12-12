@@ -19,15 +19,19 @@
 	<header id="top-nav" class="green">
 		<a href="./index.html"><img src="assets/logo-white.svg" alt="Lazy Tulip Cafe" /></a>
 		<nav>
-			<a href="index.html">Home</a>
-			<a href="menu.html">Menu</a>
-			<a href="about.html">About</a>
-			<a href="news.html">News</a>
-			<a href="contact.html">Contact</a>
+			<input type="checkbox" id="hamburger">
+			<label for="hamburger">&#9776;</label>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="menu.html">Menu</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="news.html">News</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
 		</nav>
 	</header>
-	<h1>Contact Us</h1>
 	<main id="contact">
+		<h1>Contact Us</h1>
 		<svg height="300" width="12">
 			<rect width="10px" height="250" fill="#8ABF3F"/>
 		</svg>
@@ -40,11 +44,10 @@
 			<p>Drop us a line, or come visit in person!</p>
 		</section>
 		<div id="mapid"></div>
-
 	</main>
 	<footer>
 		<section>
-			<a href="index.html"><img src="assets/logo-colour.png" alt="Lazy Tulip Cafe" /></a>
+			<a href="index.html"><img src="assets/logo-white.svg" alt="Lazy Tulip Cafe" /></a>
 		</section>
 		<section>
 			<h3>Navigate</h3>
@@ -80,6 +83,6 @@
 
 	<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
 
-	<script type="module" src="script.js"></script>
+	<script type="module" src="js/script.js"></script>
 </body>
 </html>

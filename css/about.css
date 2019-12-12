@@ -1,12 +1,13 @@
 @charset "UTF-8";
 
 #about {
-	width:60%;
+	width:90%;
 	margin:0 auto;
 	min-height: 100vh;
 }
 #about p {
 	margin: 4rem;
+	width:70%;
 }
 #about svg {
 	position: absolute;
@@ -20,5 +21,8 @@
 	}
 	#about svg{
 		height: 800px;
+	}
+	#about p{
+		width:90%;
 	}
 }
