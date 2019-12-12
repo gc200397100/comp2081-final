@@ -1,22 +1,26 @@
 @charset "UTF-8";
-
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Crimson+Text&display=swap');
-
-* {
+:root{
 	font-size: 10px;
-	font-family: "Crimson Text";
+}
+/* Make all fonts the normal size by default */
+body{
+	font-size: 1.6rem;
+	font-family: var(--font-primary);
 	color: #453519;
 }
-
-h1, h2, h3 {
-	font-family: "Amatic SC";
+h1,h2,h3,h4,h5,h6{
+	font-family: var(--font-header);
+	text-transform: uppercase;
+	font-weight: 700;
 }
 
-header h1, section h1{
+h1 {
 	font-size: 8rem;
 	word-spacing: 0.8rem;
 	line-height: 1.4;
 	padding: 5rem;
+	padding-bottom: 0rem;
 }
 
 section h2{

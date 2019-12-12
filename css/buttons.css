@@ -1,0 +1,21 @@
+/* universal button */
+.button {
+	font-size: 2.4rem;
+	color: white;
+	background-color: #EE2A28;
+	padding: 0.5rem 1rem;
+	margin-top: 2rem;
+	border-radius: 0.25rem;
+	min-width: 200px;
+	display: inline-block;
+	text-align: center;
+}
+
+.button:hover, li a:hover{
+	text-decoration: none;
+	color: white;
+}
+
+.button:hover{
+	text-transform: lowercase;
+}

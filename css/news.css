@@ -1,24 +1,32 @@
 @charset "UTF-8";
 
-main section {
+#news section {
 	display: flex;
 	margin: 3rem;
-	margin-left: 15rem;
+	margin-left: 10rem;
 	align-items: flex-start;
-	width: 60%;
+	width: 80%;
 }
-main section img {
+#news section img {
 	width: 250px;
 	height: 250px;
 	object-fit: cover;
 }
-main section div{
-	margin-left: 4rem;
+#news section div{
+	margin-left: 2rem;
 }
 
-main svg{
+#news section div p{
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+#news svg{
 	position: absolute;
 	left: 5rem;
+	z-index: -1;
 }
 
 .pagination.active {
@@ -33,4 +41,10 @@ main svg{
 	padding: 0.5rem ;
 	margin-left: 1rem;
 	color: #453519;
+}
+
+@media only screen and (max-width:500px){
+	#news section img{
+		display: none;
+	}
 }

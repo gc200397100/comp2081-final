@@ -12,20 +12,23 @@
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	
-	<link rel="stylesheet" href="css/fonts.css" type="text/css"/>
-	<link rel="stylesheet" href="css/layout.css" type="text/css"/>
-	<link rel="stylesheet" href="css/home.css" type="text/css"/>
+	<link rel="stylesheet" href="css/main.css" type="text/css"/>
+	
 </head>
 <body>
-	<header>
+	<header id="top-nav">
+		<a href="./index.html"><img src="assets/logo-colour.png" alt="Lazy Tulip Cafe" /></a>
 		<nav>
-
-				<img src="assets/logo-colour.png" alt="Lazy Tulip Cafe" />
+			<a href="index.html">Home</a>
+			<a href="menu.html">Menu</a>
+			<a href="about.html">About</a>
+			<a href="news.html">News</a>
+			<a href="contact.html">Contact</a>
 		</nav>
 	</header>
 	<main>
 		<section class="mainHeader">
-			<h1>Authentic in house breakfast & lunch, made with love, for you.</h1>
+			<h1>Authentic in house<br /> breakfast & lunch,<br /> made with love, for you.</h1>
 			<!-- <img class="d-block w-100" src="assets/coffee.png" alt="Fresh Espresso"> -->
 			<!-- Carousel -->
 			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -45,28 +48,24 @@
 						<img class="d-block w-100" src="assets/mural.png" alt="The Cozy Cafe interior">
 					</div>
 				</div>
-				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					<span class="sr-only">Previous</span>
-				</a>
-				<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-					<span class="carousel-control-next-icon" aria-hidden="true"></span>
-					<span class="sr-only">Next</span>
-				</a>
 			</div>
 		</section>
-		<section>
-			<p data-aos="zoom-in">Our coffee comes from Planet Bean, a small fair trade/organic micro-roaster located in Guelph, Ontario. Our daily medium roast is the Feminino coffee.</p>
+		<div class="centered">
+			<section class="facts">
+				<p data-aos="fade-up" data-aos-duration="1500">Our coffee comes from Planet Bean, a small fair trade/organic micro-roaster located in Guelph, Ontario. Our daily medium roast is the Feminino coffee.</p>
 
-			<p data-aos="zoom-in">We make everything in house and infuse it with love! Including our bread, baked goods, soup, quiche, baked French toast, all our sauces and berry jam.</p>
+				<p data-aos="fade-up" data-aos-duration="1500">We make everything in house and infuse it with love! Including our bread, baked goods, soup, quiche, baked French toast, all our sauces and berry jam.</p>
 
-			<p data-aos="zoom-in">We believe in community, inclusivity and treating all beings with love and respect.  Open seven days a week….hope to see you soon.</p>
+				<p data-aos="fade-up" data-aos-duration="1500">We believe in community, inclusivity and treating all beings with love and respect.  Open seven days a week….hope to see you soon.</p>
 
-			<svg height="800">
-				<rect width="5px" height="750" fill="#8ABF3F" y="300"/>
-			</svg>
-		</section>
-		<section>
+				<div class="greenBar"></div>
+				
+				<!-- <svg>
+					<rect width="5px" height="10000" fill="#8ABF3F" y="300"/>
+				</svg> -->
+			</section>
+		</div>
+		<section class="call-to-action">
 			<h2>View our Menus?</h2>
 			<a class="button" href="./menu.html" >Yes Please!</a>
 		</section>
@@ -74,7 +73,7 @@
 	</main>
 	<footer>
 		<section>
-			<img src="assets/logo-colour.png" alt="Lazy Tulip Cafe" />
+			<a href="index.html"><img src="assets/logo-colour.png" alt="Lazy Tulip Cafe" /></a>
 		</section>
 		<section>
 			<h3>Navigate</h3>
@@ -82,6 +81,7 @@
 				<rect width="200px" height="5px" fill="#8ABF3F"/>
 			</svg>
 			<ul>
+				<li><a href="index.html">Home</a></li>
 				<li><a href="menu.html">Menus</a></li>
 				<li><a href="about.html">About</a></li>
 				<li><a href="news.html">News</a></li>
@@ -91,12 +91,13 @@
 		<section>
 			<h3>Find us here too!</h3>
 			<svg height="5">
-				<rect width="200px" height="5px" fill="#8ABF3F"/>
+				<rect width="250px" height="5px" fill="#8ABF3F"/>
 			</svg>
 			<ul>
 				<li><a href="https://www.facebook.com/lazytulipcafe/">Facebook</a></li>
 				<li><a href="https://www.instagram.com/lazytulipcafe/">Instagram</a></li>
 				<li><a href="https://www.yelp.ca/biz/lazy-tulip-cafe-barrie">Yelp</a></li>
+				<li><a href="https://twitter.com/lazytulipcafe?lang=en">Twitter</a></li>
 			</ul>
 		</section>
 	</footer>

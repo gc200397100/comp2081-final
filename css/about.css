@@ -1,13 +1,24 @@
 @charset "UTF-8";
 
-body main {
+#about {
 	width:60%;
 	margin:0 auto;
+	min-height: 100vh;
 }
-
-main p {
+#about p {
 	margin: 4rem;
 }
-main svg {
+#about svg {
 	position: absolute;
+	height: 750px;
+	z-index: -1;
+}
+
+@media only screen and (max-width:800px){
+	#about{
+		width:90%;
+	}
+	#about svg{
+		height: 800px;
+	}
 }

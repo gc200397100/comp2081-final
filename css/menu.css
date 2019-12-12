@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-body main {
+#menu {
 	display: flex;
 	flex-wrap: wrap;
 	margin: 0 auto;
@@ -8,16 +8,39 @@ body main {
 	padding-bottom: 5rem;
 }
 
-main section {
+#menu section {
 	width: 25%;
 	margin: 4rem;
-
 }
 
-section p {
+#menu section p {
 	font-size: 1.8rem;
 }
 
-main svg {
+#menu svg {
+	height: 850px;
 	position: absolute;
+	z-index:-1;
+}
+
+@media only screen and (max-width: 1040px){
+	#menu section {
+		width: 40%;
+	}
+	#menu svg{
+		height: 1200px;
+	}
+}
+
+@media only screen and (max-width: 880px){
+	#menu {
+		display: block;
+	}
+	#menu section {
+		width: 80%;
+		margin: 4rem;
+	}
+	#menu svg {
+		height: 1800px
+	}
 }
